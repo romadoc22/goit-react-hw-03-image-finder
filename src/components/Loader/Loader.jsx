@@ -1,6 +1,5 @@
 import { Rings } from 'react-loader-spinner';
 
-// підключаємо ф-ію роботи з порталами в реакт домі
 import { createPortal } from 'react-dom';
 
 import { LoaderContainer } from './Loader.styled';

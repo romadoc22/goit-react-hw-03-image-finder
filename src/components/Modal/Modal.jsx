@@ -5,10 +5,9 @@ import React, { Component } from 'react';
 // стилізація компонентів модалки
 import { Overlay, ModalContainer, Img } from './Modal.styled';
 
-// підключаємо ф-ію роботи з порталами в реакт домі
 import { createPortal } from 'react-dom';
 
-//створюємо новий елемент який буде порталом для модадки
+
 const modalRoot = document.querySelector('#modal-root');
 
 // компонент нашої модалки

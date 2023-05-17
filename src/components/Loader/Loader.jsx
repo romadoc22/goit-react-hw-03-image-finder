@@ -6,7 +6,7 @@ import { createPortal } from 'react-dom';
 
 import { LoaderContainer } from './Loader.styled';
 
-//створюємо новий елемент який буде порталом для модадки
+//створюємо новий елемент який буде порталом для модалки
 const loaderRoot = document.querySelector('#loader-root');
 
 const Loader = () => {
@@ -15,7 +15,7 @@ const Loader = () => {
       <Rings
         height="160"
         width="160"
-        color="#f7ac3b"
+        color="#5e4fe6"
         radius="6"
         wrapperStyle={{}}
         wrapperClass=""

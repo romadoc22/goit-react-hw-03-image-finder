@@ -41,13 +41,11 @@ export const Button = styled.button`
   color: #ffffff;
 
   &:hover {
-    background-color: #d68d1f;
+    background-color: #1d1ae4;
   }
 `;
 
 export const Input = styled.input`
-  /* white */
-
   background: #ffffff;
   border-radius: 5px;
   border: none;

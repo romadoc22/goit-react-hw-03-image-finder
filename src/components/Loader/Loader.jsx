@@ -1,12 +1,9 @@
-// підключаємо бібліотеку Loader
 import { Rings } from 'react-loader-spinner';
 
-// підключаємо ф-ію роботи з порталами в реакт домі
 import { createPortal } from 'react-dom';
 
 import { LoaderContainer } from './Loader.styled';
 
-//створюємо новий елемент який буде порталом для модалки
 const loaderRoot = document.querySelector('#loader-root');
 
 const Loader = () => {
@@ -15,7 +12,7 @@ const Loader = () => {
       <Rings
         height="160"
         width="160"
-        color="#5e4fe6"
+        color="#4236ee"
         radius="6"
         wrapperStyle={{}}
         wrapperClass=""

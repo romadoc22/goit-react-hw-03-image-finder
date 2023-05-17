@@ -46,12 +46,15 @@ export const Button = styled.button`
 `;
 
 export const Input = styled.input`
+  /* white */
+
   background: #ffffff;
   border-radius: 5px;
   border: none;
 
   width: 100%;
   height: 50px;
+  /* padding: 10px; */
   padding-left: 20px;
   margin-left: 20px;
 `;

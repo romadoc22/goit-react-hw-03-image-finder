@@ -1,7 +1,13 @@
+// підключення бібліотек
 import PropTypes from 'prop-types';
+
+// стилізація нашого контейнера в якому  вставляємо результати наших картинок
 import { Ul } from './ImageGallery.styled';
+
+// підключення компонента ImageGalleryItem
 import ImageGalleryItem from '../ImageGalleryItem';
 
+// наш компонент галереї
 const ImageGallery = ({ imagesArray, setImageLink, togleModal }) => {
   return (
     <Ul>
@@ -17,6 +23,7 @@ const ImageGallery = ({ imagesArray, setImageLink, togleModal }) => {
   );
 };
 
+// перевірка PropTypes
 ImageGallery.propTypes = {
   imagesArray: PropTypes.array.isRequired,
   togleModal: PropTypes.func.isRequired,
